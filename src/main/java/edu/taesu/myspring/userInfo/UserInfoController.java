@@ -108,7 +108,6 @@ public class UserInfoController {
 						resultMsg = "사용자 계정정보가 올바르지 않습니다.";
 						failCntFlag = "Y";
 					}
-
 				}else if(nowTimeStamp > sixtyDaysAfterDbInitTimestamp){
 					if(nowTimeStamp < nintyDaysAfterDbInitTimestamp){
 						resultCode = "9997";
